@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>About</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()" class="fa"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" class="fa"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <!-- About Us Content -->
+
+    <section class="about us">
+        <div class="row">
+            <div class="about-col">
+                <h1>We are the best university in the World</h1>
+                <p>Welcome to Al Sheikh Abdullah bin Amer, where innovation meets tradition in a dynamic environment dedicated to academic excellence and global impact. Founded on the principles of integrity, diversity, and leadership, we are committed to providing a transformative educational experience that empowers students to thrive in a rapidly changing world.
+                    <br>
+                    <br>
+                    Our university, located in the heart of Riyadh, offers a diverse range of undergraduate, graduate, and professional programs designed to inspire and challenge. With cutting-edge facilities, renowned faculty, and a vibrant campus community, we create an environment where ideas flourish and students are prepared to become leaders in their fields.
+                    <br>
+                    <br>
+                    We embrace a global perspective, fostering connections with institutions and communities worldwide. Our commitment to research, innovation, and holistic education ensures that our students gain the skills and knowledge needed to address the complex challenges of the future.
+                    <br>
+                    <br>
+                    At Al Sheikh Abdullah bin Amer, we believe in nurturing talent, promoting critical thinking, and encouraging lifelong learning. Join us and become part of a community dedicated to making a meaningful impact locally and globally.
+                </p>
+                <a href="blog.html" class="hero-btn red-btn">EXPLORE NOW</a>
+            </div>
+            <div class="about-col">
+                <img src="about.jpg">
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+     <section class="footer">
+            <h4>About Us</h4>
+            <p>Al Sheikh Abdullah bin Amer University is committed to academic excellence and innovation. Located in Riyadh, we offer a diverse range of programs and state-of-the-art facilities to support your educational journey. Our dedicated faculty and vibrant campus community foster a dynamic learning environment, preparing students for success in their careers and beyond.</p>           
+             <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p> © 1996-2024, Made with <i class="fa-regular fa-copyright"></i>, Inc. or its affiliates</p>
+     </section>
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

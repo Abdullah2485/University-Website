@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Master's Admission Form</title>
+    <link rel="stylesheet" href="bs.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Master's Admission Form</h1>
+        <form action="/submit" method="post">
+            <fieldset class="form-section">
+                <legend>Personal Information</legend>
+                <div class="form-group">
+                    <label for="full-name">Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="full-name">Father Name:</label>
+                    <input type="text" id="full-name" name="full-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="cnic">CNIC:</label>
+                    <input type="text" id="cnic" name="cnic" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Contact:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Father's Conatct</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="cnic">Father's CNIC:</label>
+                    <input type="text" id="cnic" name="cnic" required>
+                </div>
+                <div class="form-group">
+                    <label for="father-occupation">Father's Occupation:</label>
+                    <input type="text" id="father-occupation" name="father-occupation" required>
+                </div>
+                <div class="form-group">
+                    <label for="monthly-income">Monthly Income:</label>
+                    <input type="number" id="monthly-income" name="monthly-income" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Emergency Contact:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="blood">Blood Group:</label>
+                    <input type="text" id="blood" name="blood" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="address">Address:</label>
+                    <textarea id="address" name="address" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="select">Select</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="nationality">Nationality:</label>
+                    <input type="text" id="nationality" name="nationality" required>
+                </div>
+                <div class="form-group">
+                    <label for="religion">Religion:</label>
+                    <input type="text" id="religion" name="religion" required>
+                </div>
+               
+            </fieldset>
+            <fieldset class="form-section">
+                <legend>Previous Academic Record</legend>
+                <div class="form-group">
+                    <label for="school-name">School Name:</label>
+                    <input type="text" id="school-name" name="school-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="college-name">College Name:</label>
+                    <input type="text" id="college-name" name="college-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="college-name">University Name (BS):</label>
+                    <input type="text" id="college-name" name="college-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="matric-marks">Matriculation Marks:</label>
+                    <input type="number" id="matric-marks" name="matric-marks" required>
+                </div>
+                <div class="form-group">
+                    <label for="intermediate-marks">Intermediate Marks:</label>
+                    <input type="number" id="intermediate-marks" name="intermediate-marks" required>
+                </div>
+                <div class="form-group">
+                    <label for="cgpa">University CGPA (BS):</label>
+                    <input type="number" id="cgpa" name="cgpa" required>
+                </div>
+                <div class="form-group">
+                    <label for="year-school">Year of Passing School:</label>
+                    <input type="text" id="year-school" name="year-school" required>
+                </div>
+                <div class="form-group">
+                    <label for="year-college">Year of Passing College:</label>
+                    <input type="text" id="year-college" name="year-college" required>
+                </div>
+                <div class="form-group">
+                    <label for="year-school">Year of Passing University:</label>
+                    <input type="text" id="year-school" name="year-school" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="form-section">
+                <legend>Program Selection</legend>
+                <div class="form-group">
+                    <label for="program">Program of Interest:</label>
+                    <select id="program" name="program" required>
+                        <option value="select">Select</option>
+                        <option value="business-administration">Business Administration</option>
+                        <option value="psychology">Psychology</option>
+                        <option value="economics">Economics</option>
+                        <option value="biology">Biology</option>
+                        <option value="english-literature">English Literature</option>
+                        <option value="political-science">Political Science</option>
+                        <option value="sociology">Sociology</option>
+                        <option value="international-relations">International Relations</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="mathematics">Mathematics</option>
+                        <option value="history">History</option>
+                        <option value="art-history">Art History</option>
+                        <option value="philosophy">Philosophy</option>
+                        <option value="communication-studies">Communication Studies</option>
+                        <option value="comparative-literature">Comparative Literature</option>
+                        <option value="anthropology">Anthropology</option>
+                        <option value="pre-medicine">Pre-Medicine</option>
+                        <option value="nursing">Nursing</option>
+                        <option value="biomedical-sciences">Biomedical Sciences</option>
+                        <option value="health-sciences">Health Sciences</option>
+                        <option value="public-health">Public Health</option>
+                        <option value="medical-laboratory-science">Medical Laboratory Science</option>
+                        <option value="health-information-management">Health Information Management</option>
+                        <option value="nutrition-and-dietetics">Nutrition and Dietetics</option>
+                        <option value="radiologic-technology">Radiologic Technology</option>
+                        <option value="occupational-therapy-assistant">Occupational Therapy Assistant</option>
+                        <option value="pharmacy-technician">Pharmacy Technician</option>
+                        <option value="physician-assistant-studies">Physician Assistant Studies</option>
+                        <option value="emergency-medical-services">Emergency Medical Services</option>
+                        <option value="speech-language-pathology-assistant">Speech-Language Pathology Assistant</option>
+                        <option value="health-administration">Health Administration</option>
+                        <option value="mechatronics-engineering">Mechatronics Engineering</option>
+                        <option value="civil-engineering">Civil Engineering</option>
+                        <option value="mechanical-engineering">Mechanical Engineering</option>
+                        <option value="electrical-engineering">Electrical Engineering</option>
+                        <option value="chemical-engineering">Chemical Engineering</option>
+                        <option value="computer-engineering">Computer Engineering</option>
+                        <option value="aerospace-engineering">Aerospace Engineering</option>
+                        <option value="biomedical-engineering">Biomedical Engineering</option>
+                        <option value="petroleum-engineering">Petroleum Engineering</option>
+                        <option value="mining-engineering">Mining Engineering</option>
+                        <option value="environmental-engineering">Environmental Engineering</option>
+                        <option value="industrial-engineering">Industrial Engineering</option>
+                        <option value="nuclear-engineering">Nuclear Engineering</option>
+                        <option value="materials-science-and-engineering">Materials Science and Engineering</option>
+                        <option value="automotive-engineering">Automotive Engineering</option>
+                        <option value="engineering-physics">Engineering Physics</option>
+                    </select>                    
+                </div>
+                <div class="form-group">
+                    <label for="class-mode">Applying for Physical or Online Classes:</label>
+                    <select id="class-mode" name="class-mode" required>
+                        <option value="select">Select</option>
+                        <option value="physical">Physical</option>
+                        <option value="online">Online</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="session-time">Session:</label>
+                    <select id="session-time" name="session-time" required>
+                        <option value="select">Select</option>
+                        <option value="morning">Morning</option>
+                        <option value="evening">Evening</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <div class="form-group">
+                <a href="end.html" class="submit-button">Submit Application</a>
+             </div>
+        </form>
+    </div>
+     <!-- Footer -->
+     <section class="footer">
+        <h4>About Us</h4>
+        <p>Al Sheikh Abdullah bin Amer University is committed to academic excellence and innovation. Located in Riyadh, we offer a diverse range of programs and state-of-the-art facilities to support your educational journey. Our dedicated faculty and vibrant campus community foster a dynamic learning environment, preparing students for success in their careers and beyond.</p>       
+         <div class="icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+        <p> © 1996-2024, Made with <i class="fa-regular fa-copyright"></i>, Inc. or its affiliates</p>
+ </section>
+</body>
+</html>

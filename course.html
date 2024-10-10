@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Courses</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()" class="fa"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about,html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" class="fa"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    </section>
+    
+    <!-- Courses -->
+     
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>At Al Sheikh Abdullah bin Amer University, we are committed to providing a comprehensive range of programs designed to equip you with the knowledge and skills needed to excel in your chosen field. Our diverse course offerings span various disciplines, ensuring you have access to world-class education and specialized training. Explore our courses below to find the perfect fit for your academic and professional goals.</p>
+            <div class="row">
+                <div class="course-col">
+                    <h3>Graduation</h3>
+                    <p>Welcome to our University. Our undergraduate programs offer a solid foundation for your future, with diverse disciplines and hands-on experiences. Dive into learning, engage with a vibrant community, and start your journey towards success.</p>
+                    <a href="programs.html" class="hero-btn red-btn">Show More</a>
+                </div>
+                <div class="course-col">
+                    <h3>Masters</h3>
+                    <p>Elevate your expertise with a master’s degree from our university. Our programs combine rigorous coursework and practical application, guided by leading experts. Advance your career and deepen your knowledge in your chosen field.</p>
+                    <a href="programs.html" class="hero-btn red-btn">Show More</a>
+                </div>
+                <div class="course-col">
+                    <h3>Doctorate Programs</h3>
+                    <p>Discover new frontiers with a PhD from this University. Our doctoral programs focus on groundbreaking research and scholarly excellence. Collaborate with esteemed faculty and contribute to advancements in your field.</p>
+                    <a href="programs.html" class="hero-btn red-btn">Show More</a>
+                </div>
+            </div>
+    </section>
+
+    <!-- Facilities -->
+    <section class="facilities">
+        <h1>OUR FACILITIES</h1>
+        <p>At Al Sheikh Abdullah bin Amer University, we pride ourselves on providing an exceptional learning environment supported by state-of-the-art facilities. Our campus is equipped with cutting-edge resources designed to enhance your educational experience and support your academic and professional growth.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="library.png">
+                <h3>World Class Library</h3>
+                <p>Our university's library is a cornerstone of academic life, offering a tranquil environment for studying and research. It houses an extensive collection of books, journals, and digital resources, ensuring that students have access to a wealth of information. With quiet study areas for focused work and collaborative spaces for group projects, the library is designed to support a range of learning needs.
+                </p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="basketball.png">
+                <h3>Play Ground</h3>
+                <p>The playground is a vibrant and dynamic area where students can unwind and engage in recreational activities. Featuring modern sports facilities, including tennis courts, soccer fields, and basketball courts, the playground encourages physical activity and promotes a healthy, balanced lifestyle. It’s an ideal spot for casual sports, fitness sessions, or simply relaxing with friends between classes.
+                </p>
+
+            </div>
+            <div class="facilities-col">
+                <img src="cafeteria.png">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Our cafe provides a cozy and inviting atmosphere for students to take a break, socialize, or grab a quick bite. With a diverse menu that includes fresh coffee, snacks, and light meals, the café is a popular gathering place on campus. It’s the perfect spot to meet up with friends, enjoy a quiet moment with a book, or refuel during a busy day.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+     <section class="footer">
+            <h4>About Us</h4>
+            <p>Al Sheikh Abdullah bin Amer University is committed to academic excellence and innovation. Located in Riyadh, we offer a diverse range of programs and state-of-the-art facilities to support your educational journey. Our dedicated faculty and vibrant campus community foster a dynamic learning environment, preparing students for success in their careers and beyond.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p> © 1996-2024, Made with <i class="fa-regular fa-copyright"></i>, Inc. or its affiliates</p>
+     </section>
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

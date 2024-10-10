@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog</title>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-xmark" onclick="hideMenu()" class="fa"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()" class="fa"></i>
+        </nav>
+        <h1>Our Programs For 2024</h1>
+    </section>
+    
+    <!-- Blog Content -->
+
+    <section class="blog-content">
+        <div class="row">
+            <div class="blog-left">
+                <img src="certificate.jpg">
+                <h2>Our Programs For 2024</h2>
+                <p>At Al Sheikh Abdullah bin Amer University, we are dedicated to offering a broad spectrum of programs tailored to equip students with the skills and knowledge necessary for success in their chosen fields. Our comprehensive curriculum spans across engineering, non-engineering disciplines, and medical sciences, providing a rich educational experience supported by cutting-edge resources and expert faculty.</p>
+                    <h2>Engineering Programs</h2>
+                   <p> Our engineering programs are designed to merge theoretical understanding with practical application. Students in these programs benefit from hands-on learning opportunities, advanced laboratories, and industry-relevant projects, preparing them for diverse and dynamic careers in engineering.</p>
+                <br>
+                <h2>Non-Engineering Programs</h2>
+                    <P>Our non-engineering programs provide a diverse range of disciplines that encourage critical thinking, creativity, and in-depth study. These programs are designed to prepare students for careers in various fields, from business and the arts to social sciences and humanities.</P>
+                    
+                    <h2>Medical Programs</h2>
+                        <p>Our medical programs are crafted to provide a deep understanding of healthcare and medical research. These programs prepare students for impactful roles in various healthcare settings and equip them with the skills needed to address global health challenges.</p>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+
+                        <p>
+                            At Al Sheikh Abdullah bin Amer University, we are committed to nurturing your potential and guiding you towards a successful future. Our diverse range of programs is designed to ignite your passion, expand your horizons, and equip you with the skills needed to excel in today’s dynamic world. Whether you are drawn to the innovative challenges of engineering, the insightful exploration of non-engineering disciplines, or the impactful realms of medical sciences, we are here to support you every step of the way. Embrace the journey ahead with us, and let Al Sheikh Abdullah bin Amer University be the foundation upon which you build your dreams and achieve your aspirations.</p>
+                            <br>
+                            <br>
+                            <a href="programs.html" class="hero-btn red-btn">Apply Now</a>
+
+                        <div class="comment-box">
+                            <h3>Leave a comment</h3>
+                            <form class="comment-form">
+                                <input type="text" placeholder="Enter Name">
+                                <input type="text" placeholder="Enter Email">
+                                <textarea rows="5" placeholder="Your Comment"></textarea>
+                                <button type="submit" class="hero-btn red-btn">Post Comment</button>
+
+                            </form>
+                        </div>
+
+
+
+
+                        
+            </div>
+            <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>24</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Cyber Security</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>34</span>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+     <section class="footer">
+            <h4>About Us</h4>
+            <p>Al Sheikh Abdullah bin Amer University is committed to academic excellence and innovation. Located in Riyadh, we offer a diverse range of programs and state-of-the-art facilities to support your educational journey. Our dedicated faculty and vibrant campus community foster a dynamic learning environment, preparing students for success in their careers and beyond.</p>            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-whatsapp"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p> © 1996-2024, Made with <i class="fa-regular fa-copyright"></i>, Inc. or its affiliates</p>
+     </section>
+
+
+
+    <!-- JavaScript for Toggle Menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
